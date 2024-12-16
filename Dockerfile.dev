@@ -1,0 +1,16 @@
+FROM ruby:3.3.6
+ENV APP /app
+
+RUN curl -fsSL https://deb.nodesource.com/setup_lts.x | bash -
+RUN apt update -qq \
+ && apt install -y build-essential nodejs
+
+WORKDIR $APP
+COPY Gemfile $APP/Gemfile
+COPY Gemfile.lock $APP/Gemfile.lock
+RUN bundle install
+
+COPY package.json package-lock.json ./
+RUN npm install
+
+COPY . $APP

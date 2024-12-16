@@ -1,0 +1,22 @@
+{
+  "name": "Mico",
+  "dockerComposeFile": ["../compose.yaml", "./compose.yaml"],
+  "service": "web",
+  "workspaceFolder": "/app",
+  "customizations": {
+    "vscode": {
+      "extensions": ["Shopify.ruby-lsp", "aliariff.vscode-erb-beautify"],
+      "settings": {
+        "editor.tabSize": 2,
+        "editor.formatOnSave": true,
+        "editor.semanticHighlighting.enabled": true,
+        "editor.formatOnType": true,
+        "files.associations": { "*.erb": "html", "*.html.erb": "erb" },
+        "[erb]": {
+          "editor.defaultFormatter": "aliariff.vscode-erb-beautify"
+        }
+      }
+    }
+  },
+  "remoteUser": "root"
+}
