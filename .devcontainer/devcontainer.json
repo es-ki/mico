@@ -1,5 +1,5 @@
 {
-  "name": "Mico",
+  "name": "Frameworkers",
   "dockerComposeFile": ["../compose.yaml", "./compose.yaml"],
   "service": "web",
   "workspaceFolder": "/app",
