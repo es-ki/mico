@@ -1,3 +1,7 @@
+## 画面遷移図
+
+[Figma](https://www.figma.com/design/1j6gqlJMlwjyCkiG0JrOHf/transition_diagram?node-id=0-1&t=51FyaO9AfD18yBwu-1)
+
 ## サービス概要
 
 ビジネスフレームワークの学習ならびに実践できるサービスです。
