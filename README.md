@@ -1,3 +1,7 @@
+## ER 図
+
+![er](https://github.com/user-attachments/assets/df07e247-3725-4dd2-88a4-0bb6de32df17)
+
 ## 画面遷移図
 
 [Figma](https://www.figma.com/design/1j6gqlJMlwjyCkiG0JrOHf/transition_diagram?node-id=0-1&t=51FyaO9AfD18yBwu-1)
